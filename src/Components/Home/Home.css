@@ -1,0 +1,87 @@
+.home-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.text-container{
+    width: 120%; 
+    margin-left: 50px;
+}
+.image-container img{
+    
+    width: 50%; 
+}
+h1 {
+  text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #fbc4c4, #f7ff02, #f50909);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 10s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(245, 9, 9, 0);
+  }
+  
+  @keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  transition: all .3s ease;
+  background-color: green;
+  border-radius: 8px;
+  margin: auto;
+  padding: 5px;
+  height: 40px;
+  width:150px;
+}
+
+.person{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin-left: 20px;
+  border: 2px solid red;
+  border-radius: 8px;
+  box-shadow: 0 0 6px #ccc;
+  overflow: hidden;
+  padding: 5px;
+}
+.reviews{
+  display: grid;
+  gap: 20px;
+  max-width: 600px;
+  margin:auto;
+  text-align:center;
+  grid-template-columns: repeat(2fr,1fr);
+}
+.reviews h2{
+  font-size: 2em;
+  background-color: #f7ff02;
+  border-radius: 8px;
+  padding: 7px;
+}
+img{
+  border-radius: 50%;
+
+}

@@ -1,0 +1,7 @@
+.dashboard h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: crimson;
+    background-color: rgb(102, 234, 102);
+}
